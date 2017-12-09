@@ -3,8 +3,8 @@
 <html>
 <!-- 
 Program Name:   Seminole Movie Connection using TheMovieDB API
-Author: 
-Date: 
+Author: Becca  Billman
+Date: 8 December 2017
 Filename:   index.html
 -->
 
@@ -53,7 +53,8 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *********************************Insert Code Below********************************-->
-                     
+                    id=”overview”
+                    json.results[0].overview
                      
                      
                     <!--**************************Insert Movie Release Date*****************************
@@ -65,8 +66,8 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
-            
-            
+                        id="original_title"
+                        json.results[0].origial_title
             
                     <!--**********************Insert Movie Popularity Rating***************************
                      TASK #4:  
@@ -77,7 +78,8 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
-            
+                        id=”popularity”
+                        json.results[0].popularity
             
             
                     <!--*************************Insert Movie Language************************************
@@ -89,7 +91,8 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
-            
+                        id=”original_language”
+                        json.results[0].originallanguage
             
                     <!--The code below retrieves the poster URL from the HTTP Response message and displays
                         the poster on the HTML document where the id is:  "poster_path"

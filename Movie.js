@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             $.ajax({
                 //Insert YOUR API Key after the '=' inside the single quotes.
-                url:'https://api.themoviedb.org/3/search/movie?api_key=INSERT-HERE',
+                url:'https://api.themoviedb.org/3/search/movie?api_key= c9ca18df1b591832784b9c3e94f81a90',
                 data: query
             })
             
@@ -55,10 +55,7 @@ $(document).ready(function(){
                  2.  Use as the DOM name where the id is "#overview"
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
-                 *********************************Insert Code Below********************************************/                
-                
-                
-                
+                 *********************************Insert Code Below********************************************/     var query = "query=" + $("#overview").val();          
 
                 /***********************Retrieve Movie Release Date from Server & Add to HTML Document***********
                  TASK #7:  
@@ -71,9 +68,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/               
-
-
-
+                var query = "query=" + $("#release_date").val();
 
                  /***********************Retrieve Movie Popularity Rate from Server & Add to HTML Document******
                  TASK #8:  
@@ -87,7 +82,7 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/   
 
-  
+                    var query = "query=" + $("#popularity").val();
 
                 
                  /*****************Retrieve Movie Original Language from Server & Add to HTML Document***********
@@ -100,7 +95,7 @@ $(document).ready(function(){
                  2.  Use as the DOM name where the id is "#original_language"
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
-                 *********************************Insert Code Below********************************************/                 
+                 *********************************Insert Code Below********************************************/        var query = "query=" + $("#original_language").val();         
 
 
 

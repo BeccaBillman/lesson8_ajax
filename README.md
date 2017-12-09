@@ -4,19 +4,17 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+(December 8, 2017)
 
 ### Student Name:  
-(First and Last Name)
+(Becca Billman)
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
-
+(This project is a movie wheel/movie finder)
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+(https://beccabillman.github.io/lesson8_ajax/.)
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. (How to find overview selecter)
+2. (Used the jQuery selecter)
+3. (used id to find something)
